@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+#tamanho{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 750px;
+  background-image: url(assets/img/fundo.jpg);
+}
+button {
+  border: 1px solid #122A57;
+  border-radius: 5px;
+  background-color: rgb(227, 248, 255);
+  color: #0095f6;
+  text-align: center;
+  padding: 5px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.container-lista{
+    max-width: 700px;
+    display: flex;
+    border-right: solid #0095f6 5px;
+    border-left: solid #0095f6 5px;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 20em;
+    color: #122A57;
+    border-radius: 5px;
+    
+    
+}
+
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: grey;
+}
